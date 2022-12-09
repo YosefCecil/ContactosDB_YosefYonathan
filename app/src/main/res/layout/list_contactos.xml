@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardAreas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="15dp"
+        android:layout_marginBottom="20dp"
+        app:cardBackgroundColor="#B3FEFF"
+        app:cardCornerRadius="10dp"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackgroundBorderless">
+
+        <ImageView
+            android:id="@+id/imgAreas"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/contactos"/>
+
+        <TextView
+            android:id="@+id/lblMatricula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginRight="15dp"
+            android:textStyle="bold"
+            android:text="Matricula: 57211000102"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/lblNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginRight="15dp"
+            android:text="Nombre(s): Yonathan Uriel"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/lblApellidos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="65dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Apellidos: Pastrana Tepectzin"
+            android:textSize="16dp" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
